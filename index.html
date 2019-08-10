@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gamer Haven</title>
+	<link rel="stylesheet" type="text/css" href="haven.css">
+	<link rel="icon" href="imgs/favicon.GIF">
+<meta charset="utf-8">
+<meta name="keywords" content="GamerHaven, Gamer, games, smash tournaments, consoles, strategy guides, tournaments, shopping, purchase, buy, The Legend of Zelda, Horizon Zero Dawn, Dust an Elysian Tail, Persona 5, Ryse: Son of Rome, PS4 Pro, Playstation, Playstation 4, Playstation 4 Pro, Xbox, One, Xbox One S, Luigi, Xenoblade Chronicles, Xenoblade Chronicles X, Xenoblade, trailers, video game trailers, game trailers">
+</head>
+<body id="wrapper">
+<header>
+<a href="index.html"><img src="imgs/header.png" height="200" width="446" alt="GamerHaven"></a>
+</header>
+<nav id="bar">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="news/news.html">News</a></li>
+		<li><a href="about/about.html">About</a></li>
+		<li><a href="contact/contact.html">Contact</a></li>
+		<li><a href="events/events.html">Events</a></li>
+		<li><a href="shop/shop.html">Shop</a>
+			<ul>
+				<li><a href="shop/games/games.html">Games</a></li>
+				<li><a href="shop/consoles/consoles.html">Consoles</a></li>
+				<li><a href="shop/guides/guides.html">Guides</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul id="eshopnav">
+		<li><a href="shop/games/games.html">Games</a></li>
+		<li><a href="shop/consoles/consoles.html">Consoles</a></li>
+		<li><a href="shop/guides/guides.html">Guides</a></li>
+	</ul>
+</nav>
+
+<div id="marquee"><p id="slidetext">ANNOUNCEMENT: Friday's tournament has been postponed due to weather conditions. It will be rescheduled for next week, 4/22/2017.</p></div>
+<div class="backcolor">
+<h2>You're Safe in Gamer Haven</h2>
+<aside id="homepage">
+	<ul>
+		<li><a href="http://www.facebook.com"><img src="imgs/facebook.png" height="35" width="35" alt="Facebook"></a></li>
+		<li><a href="http://www.twitter.com"><img src="imgs/twitter.png" height="40" width="40" alt="Twitter"></a></li>
+		<li><a href="http://www.instagram.com"><img src="imgs/instagram.png" height="40" width="40" alt="Instagram"></a></li>
+	</ul>
+	<div id="location">	
+	<figure>
+		<img src="imgs/locationpic.jpg" height="160" width="239" alt="our store"> 
+		<figcaption>Our Location</figcaption>
+	</figure>
+	<p>We are a small store in Marian County, dedicated to supporting your gaming needs. With more than 2000 games, our location is your premiere stop for gaming related goods and discussion.</p>
+	</div>
+	<div id="hours">
+		<p>
+			<span id="boldhighlight">Hours</span></p>
+			<hr>
+			<p>
+			Monday - Friday: 9AM - 6PM<br>
+			Saturday: 9AM - 8PM<br>
+			Sunday: 1PM - 9PM 
+		</p>
+	</div>
+</aside>
+<main>
+	<img id="mobilepic" src="imgs/slide3.png" height="150" width="767" alt="Join The Community">
+	<div id="slideshow-container">
+	<img class="slide" src="imgs/slide1.png" height="230" width="767" alt="Zelda Ad">
+	<img class="slide" src="imgs/slide2.png" height="230" width="767" alt="Visit our Location">
+	<img class="slide" src="imgs/slide3.png" height="230" width="767" alt="Community">
+	</div>
+		<script>
+			var slideIndex = 0;
+			flip();
+			function flip(){
+				
+				var i;
+				var x = document.getElementsByClassName("slide");
+				for (i = 0; i <x.length; i++){
+					x[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > x.length) {
+					slideIndex = 1}
+				x[slideIndex-1].style.display = "block";
+				setTimeout(flip, 3000);
+			}	
+		</script>
+	<p id="hometext">Welcome to the GamerHaven! If you like what you see, make sure to join our contact list. We inform our costumers and members on tournaments, new game releases, and news regarding us on a regular basis. Always remember, you're safe in GamerHaven.</p>
+	
+	<div id="topsellers">
+		<h3 id="moveh3">Top Sellers</h3>
+		<hr>
+		<div class="itememph">
+			<img class="floatdesc" src="imgs/zeldabox.jpeg" height="80" width="54" alt="The Legend of Zelda: Breath of the Wild">
+			<a href="shop/games/games.html#zelda"><p class="itemdesc">The Legend of Zelda: Breath of the Wild (Switch)</p></a>
+			<p class="price">$59.99</p>
+		</div>
+		<div class="itememph">
+			<img class="floatdesc" src="imgs/horizonbox.jpg" height="75" width="64" alt="Horizon Zero Dawn">
+			<a href="shop/games/games.html#horizon"><p class="itemdesc">Horizon Zero Dawn (PS4)</p></a>
+			<p class="price">$59.99</p>
+		</div>
+		<div class="itememph">
+			<img class="floatdesc" src="imgs/dustbox.png" height="80" width="57" alt="Dust: An Elysian Tail">
+			<a href="shop/games/games.html#dust"><p class="itemdesc">Dust: An Elysian Tail (PC Download)</p></a>
+			<p class="price">$14.99</p>
+		</div>
+		<br class="mobilebreak">
+	</div>
+		<h3 id="iframe">New Release Spotlight: Yooka Laylee</h3>
+		<iframe id="yooka" src="https://www.youtube.com/embed/Y7yF42X6kFI" height="250" width="420">
+		</iframe>
+	<ul id="extranav">	
+		<li><a href="news/news.html"><img src="imgs/news1.png" height="60" width="120" alt="News"></a></li>
+		<li><a href="events/events.html"><img src="imgs/homeevents.png" width="120" height="60" alt="Events"></a></li>
+		<li><a href="store/store.html"><img src="imgs/homeshop.png" height="60" width="120" alt="Shop"></a></li>
+		
+	</ul>
+</main>
+<footer>
+<p>Gamer Haven<br>
+8917 J. Kaplain Lane<br>
+Indianapolis, IN 46***<br>
+317 - *** - ****</p>
+</footer>
+</div>
+</body>
+</html>

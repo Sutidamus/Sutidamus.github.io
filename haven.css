@@ -1,0 +1,528 @@
+nav {   background-color: #660000; 
+	   font-weight: bold;
+	   text-align: right; 
+	   padding-right: 2em;
+	   position: relative;
+	   text-align: center;
+	   font-family: Verdana;
+} 
+body {background-color: white;
+	background-image: url(background.jpg);
+		background-repeat: none;
+		background-size: cover;
+		font-family: "Arial Black", sans-serif}
+header {background-image: linear-gradient(to bottom, #b30000, #800000);
+		}
+header img { margin-left: 28%; transition: transform ease 1s; }
+nav ul { list-style-type: none; 
+		margin: 0;
+		padding-right: 5%
+}
+#eshopnav {display: none;}
+header img:hover {transform: scale(1.03); transition: transform 1s}
+nav li { padding: 0.5em;
+	  display: inline-block;
+}
+nav a { text-decoration: none; 
+	   display: block;
+}
+.mobileonly {display: none;}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover {  color: #999966; }
+nav ul ul { position: absolute;
+		 background-color: #990000;
+		 padding: 0;
+		 display: none; 
+		 text-align: left;
+}
+.backcolor {background-color: #FFFFFF;}
+nav ul ul li { border: 1px solid  #000000;
+		 display: block;
+		 width: 7em;
+		 padding-left: 1em;
+		 margin-left: 0; 
+}
+nav li:hover ul { display: block; }
+#homepage { height: 755px; }
+#wrapper { width: 1072px; margin: auto; background-color: #7b7b80;}
+aside {float: left; width: 25%;
+	border: 2px dashed #000000;
+	margin-left: 10px;
+	margin-bottom: 20px;}
+h2 {font-size: 2em; color: white ; text-align: center; 
+	margin-top: 60px; background-color:#990000; 
+	border: 2px solid #000000; margin-top: 0; }
+aside ul{list-style-type: none; background-color: #7b7b80;
+		margin-top: 0; padding-top: 15px; padding-bottom: 15px;}
+aside hr { width: 80%; margin: auto; }
+#hours { text-align: center; }
+#hours:First-Letter { color: #000000; }
+aside li{display: inline; padding-left: 20px;}
+aside figure {margin: auto; width: 90%; overflow: auto;}
+aside figure img{ border-radius: 20px; 
+	box-shadow: 4px 4px 4px #000000;}
+aside figcaption {text-align: center; color: #b30000;
+			text-shadow: 1px 1px 7px #000000; 
+			font-weight: bold; font-size: 1.2em;
+		}
+#location p{ padding-left: 20px; text-indent: 1em;}
+#location p:First-Letter{font-size: 1.5em; color: #990000;}
+footer {clear: both; background-color: #000000;
+		color: #FFFFFF; text-align: center; font-family: sans-serif;
+			font-style: italic;}
+.slide {display: none;}
+#slideshow-container {margin: auto; 
+	border: 2px solid #990000; width: 71.5%;
+		overflow: auto;}
+#slideshow-container img{padding-right: 0;}
+#hometext{ text-indent: 1em; padding-left: 300px; }
+#hometext:First-Letter {color: #990000; font-size: 1.5em;}
+#moveh3 {text-align: center; color: #6e6e6e; 
+	text-shadow: 3px 1px 11px #000000;
+	background-image: }
+#moveh3:hover {color: #990000;}
+#topsellers { 
+	margin-left: 10px;
+	float: left;
+	width: 24%;
+	border: solid 2px #990000;
+	height: 420px;
+	margin-bottom: 10px;}
+iframe { margin-left: 50px; }
+#iframe {text-align: center;}
+#topsellers hr{text-align: center; width: 90%; color: #990000;}
+.itememph {margin:0;
+			width: 230px;
+			height: 95px;
+			margin-left: 10px;
+			margin-bottom: 10px;}
+.itememph img {border: 2px solid #990000; padding: initial;
+	position: relative; margin-right: 5px; margin-top: 5px;
+	margin-left: 5px;}
+.itememph:hover {box-shadow: 1px 1px 3px #000000;}
+.itemdesc {font-style: italic; color: black;}
+.itemdesc:hover {color: #990000;}
+.floatdesc {float: left; padding-left: 10px; 
+			padding-top: 5px;
+			padding-right: 5px;
+			margin-bottom: 10px;}
+.price {color: #000000;font-weight: bold;
+		margin-bottom: 5px;}
+.price:hover {color: #990000; transition: ease(2s);}
+#extranav {list-style-type: none;
+			margin-left: 580px;}
+#extranav li{display: inline;
+			padding-right: 15px;
+			}
+#extranav img {transition: transform 1s ease;}
+#extranav li img:hover { box-shadow: 2px 2px 3px #000000;
+						transform: scale(1.2);
+						transition: transform 1s; }
+legend {color: #990000; font-size: 1.5em;}
+fieldset {width: 350px;
+		margin-left: 20px;
+		float: left;}
+label {
+	width: 120px;
+	float: left;
+		text-align: right;
+		padding-right: 10px;
+		padding-top: 10px;}
+input {display: block;
+		padding: 10px;
+		margin-bottom: 10px;}
+input[type=submit] { margin-left: 60px; }
+form p {font-weight: bold;}
+select {padding: 10px; margin-bottom: 10px; text-align: center;}
+#contactimg1{ transform: rotate(3deg);
+			margin-left: 40px;transition: transform 1s;}
+#contactimg1:hover { box-shadow: 2px 2px 3px #000000; transform: scale(1.05);}
+#contactright figcaption {color: #990000; font-size: 1.1em;
+ margin-top: 10px; margin-left: 750px; transform: rotate(2deg);}
+#contactright img {border: 4px solid #990000;}
+#contactright figcaption:hover {color: #6e6e6e;}
+
+@-webkit-keyframes scroll{
+	0% {
+		-webkit-transform: translate(0,0);
+	}
+	100%{
+		-webkit-transform: translate(-100%,0);
+	}
+}
+#slidetext {font-size: 95%;
+			display: inline-block;
+			padding-left: 100%;
+			-webkit-animation:scroll 25s infinite linear;}
+/*#slidetext:hover {animation-play-state: paused;}*/
+#marquee { width: 100%;
+ white-space: nowrap;
+ overflow: hidden; } 
+
+
+#contactimg2{ transform: rotate(3deg); margin-left: 45px; transition: transform 1s; }
+#contactimg2:hover{box-shadow: 2px 2px 3px #000000; transform: scale(1.05);}
+.mainp:First-Letter{ color: #990000; font-size: 1.5em;} 
+.mainp { text-indent: 1em; margin-left: 300px; padding-top: 40px;}
+#aboutfloat1 { float: right; margin-right: 10px;
+			padding-left: 10px; border-radius: 60px; }
+#imggallery {position: relative; width: 90%; margin-left: 300px;
+}
+#imggallery li {display: inline-block; float: left; margin-left: 3px; overflow: hidden;}
+#imggallery span {display: none; }
+#imggallery a:hover span {display: block; position: absolute;
+				left: 680px; top: -2px;}
+#imggallery img { border: 4px solid #990000; transition: border-color .3s;
+float: left;}
+#imggallery img:hover { border-color: #eaeaea; 
+	transition: border-color ease .3s }
+#gallery { color: #990000; width: 15%; margin-left: 55%}
+#placeholder {float: right; right: 200px; position: absolute;}
+#boldhighlight{color: #990000; font-weight: bold;}
+tr {background-color: #eaeaea;}
+th {background-color: #990000; color: white; padding: 5px;}
+td {padding: 10px; text-align: center;}
+td:First-Child {text-align: left;}
+td:First-Child { font-weight: bold; font-style: italic; }
+tr:nth-of-type(even){background-color: #7b7b80 }
+table { width: 760px; margin: auto; border-spacing: 0; 
+	position: relative; border: #990000 solid 2px; }
+td:hover{top: 10px;}
+#join /*events page hyperlink to contact*/ {color: #7b7b80; transition: color .5s}
+#join:hover {color: #990000;}
+.center {text-align: center;}
+.redcolor {text-align: center ;color: #990000;
+			text-shadow: black 1px 1px 10px;}
+
+#eventsgames ul {list-style-type: none;}
+#eventsgames li {
+	float: left;
+	width: 170px;
+	padding-left: 10px;
+}
+#eventsgames img{transition: transform .5 ease;
+			box-shadow: 2px 2px 3px black}
+#eventsgames img:hover{transform: scale(1.2); 
+	transition: transform .5 ease }
+main hr {width: 50%}
+#eventsaside {height: 640px;}
+.clearp {clear: both; text-align: center; margin-left: 300px;}
+.clearp a {color: #990000;}
+.clearp a:hover {color: #7b7b80;}
+/*News Page*/
+.artpic {float: left; border-radius: 30px;
+margin-right: 10px; border: #990000 solid 2px;
+box-shadow: 3px 3px 3px black;}
+article p{text-indent: 1em; padding-right: 14px;}
+article p a {text-decoration: none; font-weight: bold; 
+	color: #990000;}
+article p a:hover { color: #7b7b80; }
+.newsarticle:First-Letter {color: #990000; font-size: 1.2em;
+	font-weight: bold;}
+article {margin-left: 250px;}
+article:Last-Child {margin-bottom: 20px;}
+article h3 {width: 93%; margin-left: 40px; 
+	background-color: #7b7b80; padding-left: 5px;
+	color: #eaeaea;}
+article ul {margin-left: 300px;}
+#newsaside {height: 840px;}
+/*Store css*/
+#storenav {width: 20%; height: 600px; 
+	font-family: Verdana;
+	font-weight: bold;
+	background-color: #990000;}
+#storenav ul{background-color: initial; font-family: "Arial Black", Gadget, sans-serif}
+#storenav li {display: block; margin-bottom: 40px; padding: initial;}
+#storenav li:First-Child {margin-top: 20px;}
+#storenav a {color: white; text-decoration: none;}
+#storenav a:hover {color: #7b7b80;}
+/*Store home column layout*/
+#games, #consoles, #guides {width: 25%; background-color: #eaeaea; 
+	 margin-left: 0; height: 600px;
+	border-bottom: 2px solid #990000;
+border-top: 2px solid #990000;
+border-right: 2px solid #990000;}
+#games hr, #consoles hr, #guides hr {width: 90%}
+#games {float: left;height: 600px;}
+#consoles {float: left;}
+.headerimg {display: block; text-align: center; transition: transform ease 1s;
+		border-radius: 20%;
+		position: relative;
+	margin: auto; margin-top: 15px;
+	box-shadow: 2px 2px 2px black;}
+.headerimg:hover {transform: scale(1.1); transition: transform 1s}
+#topsellers_shop {width: initial}
+#topsellers_shop hr {width: initial;}
+#guides {margin-left: 768px;}
+#consoles .headerimg {position: relative; }
+a {text-decoration: none;}
+/*Games Page CSS*/
+.gamesection{
+	display: inline;
+	background-color: #eaeaea;
+	width: 79%;
+	border-bottom: 2px dashed #990000;
+}
+.gamesection h3{
+	color: #990000;
+	position: relative;
+}
+.gamesection:Last-Child {}
+.floatgame {float: left; border: 2px solid #990000;
+	margin-left: 10px; margin: 0 10px;}
+.viewmore {	padding-left: 90px;
+	text-decoration: none;
+ color: #990000;}
+.gamep {width: 70%; margin-right: 0;}
+.gameprice {color: #990000; font-weight: bold;}
+.gameprice:hover {color: #7b7b80;}
+.mobiletrailer {display: none;}
+.trailer {float: right; margin-right: 20px;}
+#gamenav {
+	/* flex-grow: 1; */
+	/* height: 708px; */
+	width: 20%;
+	/* display:  flex; */
+	font-family: Verdana;
+	font-weight: bold;
+	background-color: #990000;
+	margin:0;
+	float: left;
+	height: 920px;
+	/* position: absolute; */
+	}
+#gamenav ul{background-color: initial; font-family: "Arial Black", Gadget, sans-serif}
+#gamenav li {display: block; margin-bottom: 40px; padding: initial;}
+#gamenav li:First-Child {margin-top: 20px;}
+#gamenav a {color: white; text-decoration: none;}
+#gamenav a:hover {color: #7b7b80;}
+#gamescollection{width: 79%; margin:0;float: right;}
+/*Consoles Page CSS*/
+.floatconsole { float: left; border: 2px solid #990000;
+	margin-left: 10px; margin: 10px 10px; }
+.consolep {}
+.consolesection{
+	display: inline-block;
+	background-color: #eaeaea;
+	/* width: 79%; */
+	border-bottom: 2px dashed #990000;
+	}
+.consolesection h3 {position: relative; padding:initial; padding-left: 186px}
+.consolesection ul {position: relative;margin:  auto;padding:  0;}
+.consolesection li {margin-left: 40%}
+#consolenav {
+	display:  inline-block;
+	margin:  0;
+	width: 20%;
+	/* height: 600px; */
+	font-family: Verdana;
+	font-weight: bold;
+	background-color: #990000;
+	height: 940px;
+	}
+#consolenav ul{background-color: initial; font-family: "Arial Black", Gadget, sans-serif}
+#consolenav li {display: block; margin-bottom: 40px;
+ padding: initial;}
+#consolenav li:First-Child {margin-top: 20px;}
+#consolenav a {color: white; text-decoration: none;}
+#consolenav a:hover {color: #7b7b80;}
+#consolecollection{width: 79%;margin: 0;display: inline-block;float: right;}
+/*Guide Page CSS*/
+.guidep{float: right;display: block;width: 80%;}
+.floatguide{float:left;}
+.guidesection{
+	display: inline-block;
+	background-color: #eaeaea;
+	/* width: 79%; */
+	border-bottom: 2px dashed #990000;
+}
+.guidesection h3{
+	color: #990000;
+	position: relative;
+}
+ #guidenav {
+	width: 20%;
+	height: 600px;
+	font-family: Verdana;
+	font-weight: bold;
+	background-color: #990000;
+	height: 873px;
+	margin: 0;
+	}
+#guidecollection{width: 79%;margin: 0;display: inline-block;float: right;}
+#guidenav ul{background-color: initial; font-family: "Arial Black", Gadget, sans-serif}
+#guidenav li {display: block; margin-bottom: 40px; padding: initial;}
+#guidenav li:First-Child {margin-top: 20px;}
+#guidenav a {color: white; text-decoration: none;}
+#guidsenav a:hover {color: #7b7b80;}
+#mobilepic {display: none;}
+.mobilebreak { display: none; }
+
+/*Mobile Coding*/
+@media only screen and (max-width: 480px){
+		#wrapper {width: 100%;}
+		h2 {margin-bottom: 0; font-size: 180%}
+		#bar {width: 100%; padding-right: 0; text-align: center;}
+		#bar li {width: 40%; margin: auto;}
+		aside {display: none;}
+		#marquee {margin-top: 3%;
+			overflow: hidden; }
+		header img {width: 100%; margin: auto; height: 90%}
+		nav li {display: block;}
+		nav {margin: initial;}
+		h2 {border-right: none;
+			border-left: none;
+		}
+		nav ul li:hover ul {display: none;}
+		#slideshow-container, .slide {display: none;}
+		#mobilepic {display: block;
+			max-width: 100%; height: 100%; 
+			border-bottom: 2px solid #990000;}
+		#hometext {padding-left: 3%}
+		#topsellers { 
+		clear: both;
+		width: 80%;
+		margin-left: 10%;
+		border: solid 2px #990000;
+		height: 420px;
+		margin-bottom: 10px;
+		margin-right: 10%}
+		#topsellers div{
+			width: 230px;
+			margin: auto;
+			position: relative;
+		}
+		iframe {display: none;}
+		#iframe {display: block;}
+		#yooka {display: block; width: 80%; margin: initial; margin: auto;
+			margin-bottom: 5%}
+		#extranav {margin: initial; padding: initial;
+			margin: auto; width: 90%; display: block;
+			margin-left: 9%}
+		#extranav li {padding: initial; margin: initial;
+			display: inline;}
+		#extranav li img:hover {transform: none;}
+		#extranav li img { width: 30%; height: 30%; }
+		/*NewsMobile*/
+		article {clear: both; margin-left: initial; padding: initial;}
+		article p {clear: both; margin-left: 3%}
+		article img {margin-left: initial; width: 100%; height: 100%;
+			margin: auto;}
+		article h3 {margin: initial; width: 100%}
+		article ul {margin: initial;}
+	/*AboutMobile*/
+		#aboutfloat1{ clear: both; margin: initial;
+			width: 100%; height: 100%; transform: scale(.9);}
+		.mainp {margin: initial; margin-left: 2%;}
+		#gallery {margin: initial; display: block;margin: auto;}
+		#imggallery a:hover span {display: none;}
+		#imggallery li {margin-bottom: 3%}
+		#placeholder {display: none;}
+		#imggallery {width: 100%; margin: initial; padding-right: 0; margin-bottom: 10%;
+			margin-right: 5%}
+		#imggallery img { display: block; margin: initial;}
+	/*ContactMobile*/
+		fieldset {width: 90%; margin: initial; 
+			margin-left: 2%; margin-bottom: 2%}
+		label {margin: initial; clear: both; text-align: left;}
+		input {margin:initial; margin-bottom: 4%; }
+		label[for=email]{clear: both; margin: none; }
+		label[for=genre]{ margin-bottom: 4% }
+		input[type=tel] {margin-bottom: 5%;}
+		input[type=submit] {margin: initial;}
+		select {margin: initial; margin-bottom: 4% }
+		#contactright img{clear: both; transform: none;}
+		#contactright img:hover {transform: none;}
+		#contactimg1 {margin: initial; margin-bottom: 5%; float: left;
+			margin-top: 0;}
+		#contactright figcaption {display: none;}
+		#contactright {display:none;
+			transform: scale(.5); clear: both;
+			margin-top:0;}
+		#contactimg2 {margin: initial;}
+		input [type=submit] {margin:initial; padding: initial;}
+		/*EventsMobile*/
+		table {transform:scale(.8); margin: initial; width: initial;}
+		#eventsgames {
+			position: relative; 
+			margin: initial;
+			margin: auto; width: 90%; display: block; padding-right: 10%} 
+		#eventsgames ul {width: 90%; display: block;}
+		#eventsgames li {float: left;
+				padding: initial;
+				margin-right: 0;
+				transform: scale(.9);
+				margin-left: 0;
+				width: 50%
+			}
+		#eventsgames li:Last-Child {clear: right;}
+		#eventsgames img {margin: initial;
+			margin: 0; 
+			padding: 0;
+			width: 100%
+		}
+		#eventsgames img:hover {transform: none;}
+		#eventsgames figure {margin: 0; width: 100%; float: left;}
+		.clearp { margin: initial;}
+		.redcolor {margin-bottom: 0;}
+		/*ShopMobile*/
+		#eshopnav { 
+			display: block;
+					 font-size: 90%; background-color: #660000; width: 80%;
+					 margin-left: 4%}
+		#eshopnav li{float: left; background-color: #660000;width: 30%; padding: 1%;}
+		#games .itememph, #consoles .itememph, #guides .itememph{display: none;}
+		#games, #consoles, #guides {clear: both}
+		.viewmore {display: none;}
+		#games hr, #consoles hr, #guides hr {display: none;}
+		#games, #consoles, #guides {display: block;
+									margin: initial;
+									background-color: initial;
+									border: initial;
+									width: 100%;	
+									height: 100%;
+									transform: scale(.8);
+									margin: auto;
+									margin-bottom: 0;
+								 text-align: center;
+								}
+		#guides {margin: initial;}
+		.headerimg:hover {transform: none;}
+		#games a, #consoles a, #guides a {height: 70%; margin: initial;
+			padding: initial;}
+		#consoles {margin-bottom: initial; margin-bottom: 4%}
+		#guides .headerimg {margin-top: initial;}
+		.headerimg {width: 90%; height: 90%;}
+		/*GamesMobile*/
+		.mobiletrailer {display: block; background-color: #990000;
+			color: white; text-align: center;}
+		.mobiletrailer:hover {color: #7b7b80;}
+		.gamesection h3 {padding: initial; width: 80%;
+				margin: auto;
+				text-align: center;
+				margin-bottom: 2%}
+		.gamesection {width: 100%; margin-left: 0;}
+		.floatgame {float: none; margin: auto; 
+			display: block;
+			width: auto;
+			margin-bottom: 3%}
+		.gamep {margin: auto; display: block; text-indent: 1em;
+			width: 90%}
+		/*ConsolesMobile*/
+		.floatconsole {float: none; margin: auto; width: auto;
+			display: block;}
+		.consolep {display: block; margin: auto; width: 95%;
+			text-indent: 1em;}
+		.consolesection {width: 100%; margin: initial;}
+		.consolesection h3 {padding: initial;
+			padding-left: 3%; text-align: center;}
+			.consolesection li {margin: initial;}
+		.consolesection ul {margin: initial; width: 85%}
+		/*GuidesMobile*/
+		.guidesection h3{padding: initial; padding-left: 3%}
+		.guidesection {width: 100%; margin: initial; height: initial;}
+		.floatguide {float: none; display: block; margin: auto;}
+		.guidep {width: 95%; display: block;margin: auto;
+			text-indent: 1em;}
+	}
